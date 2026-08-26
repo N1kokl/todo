@@ -1,0 +1,31 @@
+#container {
+  padding: 16px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.delete-button {
+  margin-left: 16px;
+}
+
+.auth-page {
+  padding: 16px;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 320px;
+}
+
+.auth-form input,
+.auth-form button {
+  padding: 8px;
+}
+
+.auth-form a {
+  margin-top: 8px;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "todo-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test mocha *.test.js",
+    "dev": "cross-env NODE_ENV=development nodemon index.js",
+    "start:test": "cross-env NODE_ENV=test node index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bcrypt": ">=5 <7",
+    "cors": ">=2 <3",
+    "dotenv": ">=16 <18",
+    "express": ">=4 <6",
+    "jsonwebtoken": ">=9 <10",
+    "pg": ">=8 <9"
+  },
+  "devDependencies": {
+    "chai": ">=5 <7",
+    "cross-env": ">=7 <11",
+    "mocha": ">=10 <12",
+    "nodemon": ">=3 <4"
+  }
+}
